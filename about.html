@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — DemoCo</title>
+  <meta name="description" content="About page for the Bootstrap 5 demo site." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    .page-hero {
+      background: linear-gradient(180deg, rgba(13,110,253,.08), transparent 60%);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">DemoCo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero" style="padding-top: 6rem;">
+    <div class="container py-5">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-3">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">About</li>
+        </ol>
+      </nav>
+      <h1 class="fw-bold">About DemoCo</h1>
+      <p class="text-secondary mb-0">This page illustrates additional Bootstrap components and layout patterns.</p>
+    </div>
+  </section>
+
+  <!-- Two-column content -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <h2 class="h3">Our mission</h2>
+          <p class="text-secondary">
+            Provide a crisp starting point for prototypes and presentations, without complex tooling.
+            Duplicate this page to add more sections as your demo grows.
+          </p>
+
+          <h3 class="h5 mt-4">Timeline</h3>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex align-items-start">
+              <i class="bi bi-flag me-3 mt-1"></i>
+              <div><strong>Founded</strong><div class="text-secondary small">Q1 — Project idea and initial scaffolding.</div></div>
+            </li>
+            <li class="list-group-item d-flex align-items-start">
+              <i class="bi bi-rocket-takeoff me-3 mt-1"></i>
+              <div><strong>First Launch</strong><div class="text-secondary small">Q2 — Polished components and theme.</div></div>
+            </li>
+            <li class="list-group-item d-flex align-items-start">
+              <i class="bi bi-stars me-3 mt-1"></i>
+              <div><strong>Today</strong><div class="text-secondary small">Q3 — Snappy, mobile-first demo template.</div></div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-5">
+          <div class="p-4 border rounded-3 h-100">
+            <h3 class="h5">Quick facts</h3>
+            <div class="row row-cols-2 g-3 mt-1">
+              <div class="col"><div class="border rounded-3 p-3 text-center"><div class="h4 mb-0">2</div><div class="text-secondary small">Pages</div></div></div>
+              <div class="col"><div class="border rounded-3 p-3 text-center"><div class="h4 mb-0">0</div><div class="text-secondary small">Build steps</div></div></div>
+              <div class="col"><div class="border rounded-3 p-3 text-center"><div class="h4 mb-0">100%</div><div class="text-secondary small">Responsive</div></div></div>
+              <div class="col"><div class="border rounded-3 p-3 text-center"><div class="h4 mb-0"><i class="bi bi-check2-circle"></i></div><div class="text-secondary small">Accessible</div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team -->
+      <div class="row g-4 mt-1">
+        <div class="col-12">
+          <h2 class="h4 mt-4">Team</h2>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://picsum.photos/600/400?random=11" class="card-img-top" alt="Portrait placeholder A">
+            <div class="card-body">
+              <h5 class="card-title">Jamie Lee</h5>
+              <p class="card-text text-secondary">Founder &amp; Designer</p>
+              <a href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-linkedin me-1"></i>Connect</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://picsum.photos/600/400?random=12" class="card-img-top" alt="Portrait placeholder B">
+            <div class="card-body">
+              <h5 class="card-title">Avery Patel</h5>
+              <p class="card-text text-secondary">Engineering</p>
+              <a href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-github me-1"></i>Follow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://picsum.photos/600/400?random=13" class="card-img-top" alt="Portrait placeholder C">
+            <div class="card-body">
+              <h5 class="card-title">Riley Chen</h5>
+              <p class="card-text text-secondary">Product</p>
+              <a href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-twitter-x me-1"></i>Say hi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div class="row mt-5">
+        <div class="col-lg-8">
+          <h2 class="h4">FAQ</h2>
+          <div class="accordion" id="faq">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="q1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">
+                  Can I customize the colors?
+                </button>
+              </h2>
+              <div id="a1" class="accordion-collapse collapse show" aria-labelledby="q1" data-bs-parent="#faq">
+                <div class="accordion-body">
+                  Yes — swap utility classes (e.g., <code>text-primary</code>, <code>bg-body-tertiary</code>) or add your own CSS.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="q2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
+                  Do I need any build tools?
+                </button>
+              </h2>
+              <div id="a2" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#faq">
+                <div class="accordion-body">
+                  Nope — this demo uses CDNs and plain HTML files. Drop them on any static host.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="q3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
+                  How do I add more pages?
+                </button>
+              </h2>
+              <div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faq">
+                <div class="accordion-body">
+                  Duplicate this file, update the navbar active link, and link it from the others.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact card -->
+        <div class="col-lg-4">
+          <div class="p-4 border rounded-3">
+            <h3 class="h5">Get in touch</h3>
+            <p class="text-secondary">Questions or feedback? We’d love to hear from you.</p>
+            <a href="index.html#contact" class="btn btn-primary">Contact form</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 border-top">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+      <div class="text-secondary small">&copy; <span id="year"></span> DemoCo.</div>
+      <a class="small" href="index.html">Back to Home</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
